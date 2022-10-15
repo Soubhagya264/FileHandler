@@ -6,6 +6,8 @@ import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Signup from './pages/SignUp/Signup';
 import ViewFiles from './pages/ViewFiles/ViewFiles';
+import Modal from './Components/shared/Modal/Modal';
+
 
 function App() {
   return (
@@ -13,11 +15,12 @@ function App() {
      <Router>
      <Nav/>
       <Routes>
-         
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login></Login>} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/files" element={<ViewFiles />} />
+        <Route path="/modal" element={<Modal />} />
+        
       </Routes>
      </Router>
     </>

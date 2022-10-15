@@ -1,0 +1,98 @@
+.modalbackground{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0,0,0,0.6);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.closeStyle{
+ position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.modalcontainer{
+   
+        min-width: 500px;
+        min-height: 450px;
+        background: white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        animation: fadeInDown 0.8s;
+        border-radius: 12px;
+        
+}
+@keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.modalheader{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}  
+.modaltitle{
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Arial", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333ede;
+}
+.modalclose{
+    flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalbody{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+/* .modalbodycontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.modalInput{
+color: blue;
+font-size: 1rem;
+cursor: pointer;
+border: 1px solid black;
+padding: 10px;
+}
+
+.modalbuttons{
+    background-color: white;
+    border: 1px solid rgb(1, 1, 5);
+    padding: 10px 20px 10px 20px;
+    margin-top: 100px;
+    cursor: pointer;
+    
+}
