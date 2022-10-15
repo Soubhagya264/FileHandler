@@ -1,0 +1,14 @@
+.section{
+    display:flex;
+   background-color:white;
+
+}
+.sidebar{
+    flex: 1;
+    
+}
+
+.page{
+    flex: 3;
+   
+}

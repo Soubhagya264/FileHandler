@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Nav from './Components/shared/Navigation/Nav';
+import Home from './pages/Home/Home';
+import Login from './pages/Login/Login';
+import Signup from './pages/SignUp/Signup';
+import ViewFiles from './pages/ViewFiles/ViewFiles';
 
 function App() {
   return (
@@ -9,8 +13,11 @@ function App() {
      <Router>
      <Nav/>
       <Routes>
-        <Route>   
-        </Route>
+         
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login></Login>} />
+        <Route path="/signup" element={<Signup/>} />
+        <Route path="/files" element={<ViewFiles />} />
       </Routes>
      </Router>
     </>

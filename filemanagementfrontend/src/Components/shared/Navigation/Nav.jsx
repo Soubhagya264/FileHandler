@@ -14,6 +14,7 @@ const Nav = () => {
     }
     const logoText={
         marginLeft: "6px",
+        color:"black"
     }
   return (
     

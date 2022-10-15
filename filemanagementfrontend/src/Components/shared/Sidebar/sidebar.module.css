@@ -1,0 +1,37 @@
+.sidebarWrapper{
+    display:flex;
+    flex-direction:column;
+    height:75vh;
+}
+
+.sidebarCart{
+    
+    height:60vh;
+    width:15vw;
+    border-radius: 6px;
+    box-shadow: 2px 2px 9px 4px rgba(98, 97, 97, 0.2);
+}
+
+.cartElement{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.cartElement:hover{ 
+    cursor:pointer;
+    background-color: rgb(168, 193, 253);
+    transition: all 0.4s ease-in-out;
+ }
+
+ .btn{
+    margin:30px;
+    width:150px;
+    background-color: transparent;
+    box-shadow: 1.5px 1px 4px 1px rgba(0, 0, 0, 0.2);
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+   
+    
+
+ }

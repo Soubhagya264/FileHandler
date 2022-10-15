@@ -24,11 +24,10 @@
   color: white;
 }
 body{
+
   
-  font-family: 'Nunito', sans-serif;
-  
-  background:#050219;
-  color: #fff;
+  background:#9694a5;
+  color: rgb(6, 6, 6);
   }
 
 .App-link {
